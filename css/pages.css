@@ -1,0 +1,119 @@
+
+/* .arlo_tm_portfolio_single_wrap .pagination_wrap a {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 15px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.arlo_tm_portfolio_single_wrap .pagination_wrap a span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.arlo_tm_portfolio_single_wrap .pagination_wrap a[name = prev] span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+.arlo_tm_portfolio_single_wrap .pagination_wrap a[name = next] span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.arlo_tm_portfolio_single_wrap .pagination_wrap a[name = prev] span:after {
+    content: '\00AB';
+    position: relative;
+    opacity: 0;
+    top: 0;
+    left: -50px;
+    transition: 0.5s;
+  }
+
+.arlo_tm_portfolio_single_wrap .pagination_wrap a[name = next]:hover span {
+  padding-right: 25px;
+}
+
+.arlo_tm_portfolio_single_wrap .pagination_wrap a[name = prev]:hover span {
+    padding-right: 25px;
+  }
+
+.arlo_tm_portfolio_single_wrap .pagination_wrap a[name = next]:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.arlo_tm_portfolio_single_wrap .pagination_wrap a[name = prev]:hover span:after {
+    opacity: 1;
+    right: 0;
+  } */
+
+  .arlo_tm_portfolio_single_wrap .pagination_wrap a button {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 17px;
+    padding: 15px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .arlo_tm_portfolio_single_wrap .pagination_wrap a button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .arlo_tm_portfolio_single_wrap .pagination_wrap a button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: 40px;
+    transition: 0.5s;
+  }
+  
+  .arlo_tm_portfolio_single_wrap .pagination_wrap a button[name = prev] span:after {
+    content: '\00AB';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: 80px;
+    transition: 0.5s;
+  }
+
+  .arlo_tm_portfolio_single_wrap .pagination_wrap a button[name = next]:hover span {
+    padding-right: 25px;
+  }
+
+  .arlo_tm_portfolio_single_wrap .pagination_wrap a button[name = prev]:hover span {
+    padding-left: 25px;
+  }
+
+  .arlo_tm_portfolio_single_wrap .pagination_wrap a button[name = next]:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .arlo_tm_portfolio_single_wrap .pagination_wrap a button[name = prev]:hover span:after {
+    opacity: 1;
+    left: 0;
+  }
